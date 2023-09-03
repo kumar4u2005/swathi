@@ -1,0 +1,32 @@
+
+praveen
+
+Sari Ramineni9:35 AM
+sudo yum update -y
+sudo yum install php
+Sari Ramineni9:37 AM
+sudo yum install httpd -y
+php --version
+Sari Ramineni9:38 AM
+systemctl start httpd
+systemctl enable httpd
+usermod -a -G apache ec2-user
+Sari Ramineni9:39 AM
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+Sari Ramineni9:41 AM
+find /var/www -type d -exec chmod 2775 {} \;
+find /var/www -type f -exec chmod 0664 {} \;
+Sari Ramineni9:43 AM
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+cd /var/www/html
+Sari Ramineni9:44 AM
+ls -la
+chown -R ec2-user:apache /var/www
+Sari Ramineni9:45 AM
+cd /var/www/html
+ls -la
+Sari Ramineni9:47 AM
+http://PUBLIC IP/phpinfo.php
+Sari Ramineni9:48 AM
+echo "Hi, I am praveen, learning AWS" > /var/www/html/sample.php
