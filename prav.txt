@@ -1,0 +1,81 @@
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+Sari Ramineni12:53 PM
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/RegionsAndAZs.html
+https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+Sari Ramineni12:55 PM
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+Sari Ramineni1:35 PM
+https://git-scm.com/downloadshistory
+Sari Ramineni2:09 PM
+date
+Sari Ramineni2:11 PM
+pwd: Displays the present working directory
+ls: Lists the contents of the current directory
+Sari Ramineni2:13 PM
+mkdir praveen
+ls -la
+Sari Ramineni2:16 PM
+echo: Prints a string of text, or value of a variable to the terminal
+echo "Hello praveen"
+Sari Ramineni2:21 PM
+echo "Hello i am learning aws"
+Sari Ramineni2:23 PM
+vi firstscript.sh
+#!/bin/bash
+echo "Today is " `date`
+
+echo -e "\nenter the path to directory"
+read the_path
+
+echo -e "\n you path has the following files and folders: "
+ls $the_path
+Sari Ramineni2:25 PM
+:q!
+Sari Ramineni2:29 PM
+vi firstscript.sh
+Sari Ramineni2:30 PM
+#!/bin/bash
+echo "Today is " `date`
+
+echo -e "\nenter the path to directory"
+read the_path
+
+echo -e "\n you path has the following files and folders: "
+ls $the_path
+Sari Ramineni2:34 PM
+/home/ec2-user
+Sari Ramineni2:36 PM
+/home
+Sari Ramineni2:42 PM
+# -- comment
+Sari Ramineni2:43 PM
+vi firstscript.sh
+Sari Ramineni2:46 PM
+# This is an example comment, this can be ignored
+Sari Ramineni2:49 PM
+/home/ec2-user
+country=india
+Sari Ramineni2:50 PM
+echo $country
+new_country=$country
+Sari Ramineni2:53 PM
+echo $new_country
+Sari Ramineni2:54 PM
+country=ireland
+echo $country
+echo $new_country
+Sari Ramineni2:57 PM
+new_country=$country
+echo $new_country
+Sari Ramineni3:01 PM
+echo $abc
+echo $ABChttps://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html
+https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html
+Sari Ramineni9:16 AM
+https://mxtoolbox.com/subnetcalculator.aspx
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/ec2-example-managing-instances.htmlhttps://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
